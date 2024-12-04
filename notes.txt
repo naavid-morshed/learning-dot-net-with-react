@@ -1,0 +1,13 @@
+dotnet sln list (will list all solutions/projects)
+var builder = WebApplication.CreateBuilder(args); //creates kestrel server
+
+{ // appsettings.json
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Information" //Information gives details on sql queries
+    }
+  },
+  "AllowedHosts": "*"
+}
+
