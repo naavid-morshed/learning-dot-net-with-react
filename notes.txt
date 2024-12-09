@@ -10,4 +10,4 @@ var builder = WebApplication.CreateBuilder(args); //creates kestrel server
   },
   "AllowedHosts": "*"
 }
-
+https://www.nuget.org/packages/dotnet-ef //dotnet entity framework cli for nuget
